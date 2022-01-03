@@ -1,6 +1,5 @@
 const express = require('express')
 const { Product, Category, Tag, ProductTag } = require('./models')
-require('dotenv').config()
 // import sequelize connection
 
 const app = express()
