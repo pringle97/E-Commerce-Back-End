@@ -10,7 +10,7 @@ router.get('/tags', async function (req, res)  {
   res.json(tags)
 })
 
-router.get('/tags/:id', async function ({ params: { id } }, res)  {
+router.get('/tags/:id', async function (req, res)  {
   // find a single tag by its `id`
   // be sure to include its associated Product data
   const tags = await Tag.findOne({ include: [Product] })
@@ -23,13 +23,13 @@ router.post('/tags', async function (req, res)  {
   res.sendStatus(200)
 })
 
-router.put('/tags/:id', async function ({ params: { id } }, res)  {
+router.put('/tags/:id', async function (req, res)  {
   // update a tag's name by its `id` value
   const tags = await Tag.update(req.body, { where: { id } })
   res.sendStatus(200)
 })
 
-router.delete('/tags/:id', async function ({ params: { id } }, res)  {
+router.delete('/tags/:id', async function (req, res)  {
   // delete on tag by its `id` value
   const tags = await Tag.destroy({ where: { id } })
   res.sendStatus(200)

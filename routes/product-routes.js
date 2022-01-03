@@ -15,7 +15,7 @@ router.get('/products', async function (req, res)  {
 router.get('/products/:id', async function (req, res)  {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
-  const products = await Product.findOne({ where: { id: req.params.id }, include: [Category, Tag]})
+  const products = await Product.findOne({ where: { id: req.params.id }, include: [Category, Tag] })
   res.json(products)
 }) 
 
