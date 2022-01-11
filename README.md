@@ -1,38 +1,56 @@
 
+
   # E-Commerce Website
--------------------------------
-## GitHub Username:
-pringle97
 
-##GitHub Repository name: 
-E-Commerce-Back-End
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/pringle97/E-Commerce-Back-End?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/pringle97/E-Commerce-Back-End?style=flat&logo=appveyor) ![Badge for GitHub commit activity](https://img.shields.io/github/commit-activity/w/pringle97/E-Commerce-Back-End?color=purple)![GitHub license](https://img.shields.io/badge/license-TheUnlicense-blue.svg)
 
-## Table of Contents
-  Description
-  Installation
-  Usage
-  Tests
-  License
-  Contributing
-  Questions
 
-##  Description: 
-the back end for an e-commerce site by modifying starter code
+  ## Table of Content
+
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+
+
+  ## Description
+  the back end for an e-commerce site by modifying starter code
+
+  ## Installation
+
+  *Steps required to install project and how to get the development environment running:*
+
   
-##  Installation: 
 
+  ## Usage
 
-##  Usage: 
+  *Instructions and examples for use:*
 
+  Uses dotenv, sequelize, mysql2, and express npm packages
 
-##  Tests: 
+  ## Contributing
 
+  *If you would like to contribute it, you can follow these guidelines for how to do so.*
 
-##  License: 
-The Unlicense
+  
 
-##  Contributing: 
+  ## Tests
 
+  *Tests for application and how to run them:*
 
-##  Questions: 
-If you have any questions about my project, please send me an email at malia.pringle@gmail.com
+  type nodemon to start server
+
+  ## License
+
+  The Unlicense
+
+  ## Questions
+
+  For any questions, please contact me with the information below:
+
+  GitHub: https://github.com/pringle97
+
+  Email: malia.pringle@gmail.com
