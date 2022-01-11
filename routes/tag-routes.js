@@ -25,13 +25,13 @@ router.post('/tags', async function (req, res)  {
 
 router.put('/tags/:id', async function (req, res)  {
   // update a tag's name by its `id` value
-  const tags = await Tag.update(req.body, { where: { id } })
+  const tags = await Tag.update(req.body, { where: { id: req.params.id } })
   res.sendStatus(200)
 })
 
 router.delete('/tags/:id', async function (req, res)  {
   // delete on tag by its `id` value
-  const tags = await Tag.destroy({ where: { id } })
+  const tags = await Tag.destroy({ where: { id: req.params.id } })
   res.sendStatus(200)
 })
 
